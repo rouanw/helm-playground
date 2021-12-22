@@ -11,4 +11,7 @@ helm uninstall release-name
 
 # Dry run
 helm install test-test --dry-run --debug .
+
+# Just the templating bit, without any k8s interaction
+helm template
 ```
